@@ -1,12 +1,11 @@
-# React + Vite
+A b2c, b2b, c2b and c2c solution for business and consumers.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend : Vite+React(v7)(Bundler), tailwindCSS(v4)(Styling), react-router-dom(v7),Zustand(v5)(StateManagement).
 
-Currently, two official plugins are available:
+Backend : Node.js(runtime environment), Express.js(Framework)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Q1. How to push code to Github
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. git add .
+2. git commit -m "commit message manul"
+3. git push origin main
