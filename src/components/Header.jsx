@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { ProductContext } from "../utils/ProductContext";
 import { useContext } from "react";
 import Logo from "../assets/images/Logo-1.png";
+
 import { useSelector } from "react-redux";
 
 const Header = () => {
@@ -18,7 +19,6 @@ const Header = () => {
 
   return (
     <div className="bg-white p-3 fixed top-0 left-0 right-0 z-40 shadow-lg flex justify-around items-center">
-      {/* Logo */}
       <Link to="/">
         <img src={Logo} className="w-[180px] h-[80px]"></img>
       </Link>
