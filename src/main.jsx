@@ -7,11 +7,9 @@ import Store from "./utils/Store.jsx";
 import { Provider } from "react-redux";
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <Provider store={Store}>
-      <ProductProvider>
-        <App />
-      </ProductProvider>
-    </Provider>
-  </StrictMode>
+  <Provider store={Store}>
+    <ProductProvider>
+      <App />
+    </ProductProvider>
+  </Provider>
 );

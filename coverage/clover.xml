@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1760624336103" clover="3.2.0">
+  <project timestamp="1760624336103" name="All files">
+    <metrics statements="39" coveredstatements="31" conditionals="2" coveredconditionals="1" methods="17" coveredmethods="7" elements="58" coveredelements="39" complexity="0" loc="39" ncloc="39" packages="4" files="7" classes="7"/>
+    <package name="components">
+      <metrics statements="9" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="2"/>
+      <file name="Header.jsx" path="E:\aerokart-v0\src\components\Header.jsx">
+        <metrics statements="9" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="2"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="11" type="stmt"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="data">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Data.jsx" path="E:\aerokart-v0\src\data\Data.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="mocks">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="dummylogo.js" path="E:\aerokart-v0\src\mocks\dummylogo.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="29" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="5"/>
+      <file name="CartSlice.jsx" path="E:\aerokart-v0\src\utils\CartSlice.jsx">
+        <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+      <file name="ProductContext.jsx" path="E:\aerokart-v0\src\utils\ProductContext.jsx">
+        <metrics statements="12" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+      </file>
+      <file name="Store.jsx" path="E:\aerokart-v0\src\utils\Store.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="Useonline.jsx" path="E:\aerokart-v0\src\utils\Useonline.jsx">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

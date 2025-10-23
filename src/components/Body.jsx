@@ -3,8 +3,10 @@ import Product from "./Product";
 import { ProductContext } from "../utils/ProductContext";
 import { useContext } from "react";
 import Useonline from "../utils/Useonline";
+import { useOutletContext } from "react-router-dom";
 
 const Body = () => {
+  const { theme } = useOutletContext(); //!This is used because outlet dont take peops directly...
   const { filteredAllCategory } = useContext(ProductContext);
 
   const isOnline = Useonline();
@@ -19,7 +21,13 @@ const Body = () => {
   }
 
   return (
-    <div className="px-20 pb-10  flex flex-col justify-center items-center gap-10">
+    <div
+      className={`px-20 pb-10  flex flex-col justify-center items-center gap-10 ${
+        theme == "light"
+          ? "bg-white text-slate-700"
+          : "bg-slate-800 text-gray-200"
+      }`}
+    >
       <Product />
       <div className="flex flex-row flex-wrap gap-3 justify-center">
         {filteredAllCategory.map((product) => (
