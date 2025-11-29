@@ -5,13 +5,15 @@ import { clearCart } from "../utils/CartSlice";
 
 const Cart = () => {
   const CartItems = useSelector((store) => store?.cart?.items);
+
   const Total_price = CartItems.reduce((accumlator, product) => {
-    return accumlator + product.price;
+    return accumlator + product.price * product.quantity;
   }, 0);
   const dispatch = useDispatch();
   const handleClearcart = () => {
     dispatch(clearCart());
   };
+
   return (
     <div className="px-2 py-40 md:px-[470px] md:pt-[150px] flex flex-col gap-1.5">
       <div>
@@ -21,11 +23,18 @@ const Cart = () => {
           <h3>({CartItems.length})</h3>
         </h1>
       </div>
-      <div className="pt-5 flex flex-col gap-3">
-        {CartItems.map((product, index) => {
-          return <CartProduct {...product} key={product?.id ?? index} />;
-        })}
-      </div>
+      {CartItems.length == 0 ? (
+        <p className="text-center text-gray-600 text-lg font-medium pt-10">
+          Your cart is empty 🛒
+        </p>
+      ) : (
+        <div className="pt-5 flex flex-col gap-3">
+          {CartItems.map((product, index) => {
+            return <CartProduct {...product} key={product?.id ?? index} />;
+          })}
+        </div>
+      )}
+
       <div className="flex flex-row justify-between pt-[50px]">
         <h1 className="text-lg font-semibold">Total:</h1>
         <p className="text-[17px] font-semibold">${Total_price}</p>

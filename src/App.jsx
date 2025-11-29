@@ -17,6 +17,7 @@ const App = () => {
     </div>
   );
 };
+
 const OutletWrapper = ({ theme }) => {
   return <Outlet context={{ theme }} />;
 };
